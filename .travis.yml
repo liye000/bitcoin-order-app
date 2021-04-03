@@ -10,12 +10,12 @@ services:
   - docker
 
 before_install:
-  - docker build -t kenken64/bitcoin-app .
+  - docker build -t liye000/bitcoin-app .
 
 notifications:
   email:
     recipients:
-      - bunnyppl@gmail.com
+      - liyexyy@gmail.com
     on_success: always
     on_failure: always
 branches:
